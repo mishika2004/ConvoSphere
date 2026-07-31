@@ -1,0 +1,196 @@
+.splash-container{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+    position:relative;
+
+    background:linear-gradient(
+    135deg,
+    #0f172a,
+    #1e1b4b,
+    #312e81);
+
+}
+
+.glass-card{
+
+    width:430px;
+
+    padding:50px;
+
+    text-align:center;
+
+    border-radius:25px;
+
+    backdrop-filter:blur(18px);
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+
+    z-index:2;
+
+}
+
+.logo-icon{
+
+    font-size:75px;
+
+    color:#6c63ff;
+
+    margin-bottom:20px;
+}
+
+.glass-card h1{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+}
+
+.glass-card p{
+
+    color:#d1d5db;
+
+    margin-bottom:35px;
+
+    font-size:17px;
+}
+
+.glass-card button{
+
+    padding:14px 45px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#6c63ff;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.glass-card button:hover{
+
+    background:#5448ff;
+}
+
+.circle{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(5px);
+
+    animation:float 8s infinite ease-in-out;
+
+}
+
+.circle1{
+
+    width:220px;
+
+    height:220px;
+
+    background:#6c63ff;
+
+    top:8%;
+
+    left:10%;
+
+    opacity:.25;
+}
+
+.circle2{
+
+    width:160px;
+
+    height:160px;
+
+    background:#00d4ff;
+
+    bottom:12%;
+
+    right:10%;
+
+    opacity:.25;
+}
+
+.circle3{
+
+    width:120px;
+
+    height:120px;
+
+    background:#8b5cf6;
+
+    top:60%;
+
+    left:25%;
+
+    opacity:.2;
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-30px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+.glass-card{
+
+    width:90%;
+
+    padding:40px 25px;
+
+}
+
+.glass-card h1{
+
+    font-size:36px;
+
+}
+
+.logo-icon{
+
+    font-size:60px;
+
+}
+
+}

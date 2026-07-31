@@ -1,0 +1,62 @@
+.messages{
+
+    flex:1;
+
+    padding:20px;
+
+    overflow-y:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.my-message{
+
+    align-self:flex-end;
+
+    background:#6c63ff;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:15px;
+
+    margin:8px 0;
+
+    max-width:300px;
+
+}
+
+.other-message{
+
+    align-self:flex-start;
+
+    background:#374151;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:15px;
+
+    margin:8px 0;
+
+    max-width:300px;
+
+}
+
+.my-message span,
+.other-message span{
+
+    display:block;
+
+    margin-top:5px;
+
+    font-size:12px;
+
+    color:#ddd;
+
+}

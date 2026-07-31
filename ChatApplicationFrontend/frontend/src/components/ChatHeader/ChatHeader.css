@@ -1,0 +1,29 @@
+.chat-header{
+
+    height:80px;
+
+    padding:20px 30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.chat-header h3{
+
+    color:white;
+
+    margin:0;
+
+}
+
+.chat-header span{
+
+    color:#9ca3af;
+
+}
