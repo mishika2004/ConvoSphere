@@ -14,7 +14,10 @@ function Chat() {
     const [selectedUser, setSelectedUser] = useState(null);
     const [isTyping, setIsTyping] = useState(false);
 
-    const socket = useMemo(() => io("http://localhost:5000"), []);
+    const socket = useMemo(
+    () => io(import.meta.env.VITE_API_URL),
+    []
+);
 
     useEffect(() => {
         socket.on("user_typing", () => {

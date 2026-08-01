@@ -65,7 +65,7 @@ function Messages({ selectedUser, refreshMessages, socket }) {
         try {
 
             const response = await axios.get(
-                "http://localhost:5000/messages",
+                `${import.meta.env.VITE_API_URL}/messages`,
                 {
                     params: {
                         sender: currentUser,
