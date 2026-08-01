@@ -68,19 +68,15 @@ In today's digital world, instant communication has become an essential part of 
 
 ## 🔐 Login Page
 
-**Login Page**
+![LoginPage](/login.png)
 
 ## 📝 Registration Page
 
-**Registration Page**
+![RegistrationPage](Register.png)
 
 ## 💬 Chat Dashboard
 
-**Chat Dashboard**
-
-## ⌨️ Typing Indicator
-
-**Typing Indicator**
+![Dashboard](ChatPage.png)
 
 ---
 
